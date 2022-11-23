@@ -5,7 +5,7 @@ OBJETIVOS
   * Ser capaz de interactuar con un repositorio en GitHub
   * EXTRA: Añadir hoja de estilos CSS
 
-  STEPS
+  STEPS  
   [X] Instalar VSCode con plugins Prettier y Live Server  
   [X] Instalar y configurar Git  
   [X] Instalar Node.js  
