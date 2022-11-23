@@ -3,28 +3,40 @@
   width: 1em;
   height: 1em;
   background-color: fuchsia;
+  display: inline-block;
 }
 
 article{
 
   background-color: lightgreen;
+  padding: 2em;
 }
 
 p{
 
-  background-color: blue;
+  
   height: 18em;
-  padding-top: 1em;
+  padding: 1em;
 }
 
 .imageContainer{
 
-  display: inline;
-  width: 40%;
+  display: inline-block;
+  width: 45%;
+  height: 100%;
+  background-color: fuchsia;
+  margin-right: 9%;
+  vertical-align: middle;
+}
+
+.imageContainer img{
+  width: 100%;
 }
 
 .textContainer{
 
-  display: inline;
-  width: 60%;
+  display: inline-block;
+  width: 45%;
+  background-color: blue;
+  vertical-align: middle;
 }
