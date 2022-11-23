@@ -1,0 +1,30 @@
+.icon{
+
+  width: 1em;
+  height: 1em;
+  background-color: fuchsia;
+}
+
+article{
+
+  background-color: lightgreen;
+}
+
+p{
+
+  background-color: blue;
+  height: 18em;
+  padding-top: 1em;
+}
+
+.imageContainer{
+
+  display: inline;
+  width: 40%;
+}
+
+.textContainer{
+
+  display: inline;
+  width: 60%;
+}
