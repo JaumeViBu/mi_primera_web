@@ -7,15 +7,15 @@
 
 .icon{
 
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   background-color: fuchsia;
-  display: inline-block;
 }
 
 body{
 
   height: 100vh;
+  font-family: 'Dejavu sans',Arial, Helvetica, sans-serif;
 } 
 
 main{
@@ -28,14 +28,15 @@ article{
   background-color: lightgreen;
   padding: 2em;
   height: 100%;
+  margin: 2em;
+  border: 1px solid black;
 }
 
-p{
+article h1{
 
-  
-  height: 18em;
-  padding: 1em;
+  margin-bottom: 1em;
 }
+
 
 .imageContainer,.textContainer{
 
@@ -51,10 +52,17 @@ p{
 
 .imageContainer img{
 
+  margin-top: 12%;
   width: 100%;
 }
 
 .textContainer{
 
   background-color: blue;
+}
+
+.textContainer p{
+
+  padding: 1em; 
+  padding-top: 30%; 
 }
