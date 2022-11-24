@@ -5,20 +5,6 @@
   margin: 0;
 }
 
-.icon{
-
-  width: 2em;
-  height: 2em;
-  
-}
-
-.iconLink, .icon{
-
-  position: relative;
-  align-self: flex-end;
-  margin-left: 1em;
-}
-
 body{
 
   height: 100vh;
@@ -43,7 +29,6 @@ article h1{
 
   margin-bottom: 1em;
 }
-
 
 .imageContainer,.textContainer{
 
@@ -74,4 +59,17 @@ article h1{
 .textContainer p{
 
   width: 80%;
+}
+
+.icon{
+
+  width: 2em;
+  height: 2em;
+}
+
+.iconLink, .icon{
+
+  position: relative;
+  align-self: flex-end;
+  margin-left: 1em;
 }
