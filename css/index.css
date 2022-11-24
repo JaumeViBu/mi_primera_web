@@ -9,13 +9,21 @@
 
   width: 2em;
   height: 2em;
-  background-color: fuchsia;
+  /* background-color: fuchsia; */
+  
+}
+
+.iconLink, .icon{
+
+  position: relative;
+  align-self: flex-end;
+  margin-left: 1em;
 }
 
 body{
 
   height: 100vh;
-  font-family: 'Dejavu sans',Arial, Helvetica, sans-serif;
+  font-family: 'Dejavu Sans',Arial, Helvetica, sans-serif;
 } 
 
 main{
@@ -25,11 +33,12 @@ main{
 
 article{
 
-  background-color: lightgreen;
-  padding: 2em;
+  /* background-color: lightgreen; */
+  padding: 2%;
   height: 100%;
   margin: 2em;
-  border: 1px solid black;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
 article h1{
@@ -40,29 +49,33 @@ article h1{
 
 .imageContainer,.textContainer{
 
+  display: flex;
   width: 50%;
-  height: 100%;
+  height: 90%;
   float: left;
 }
 
 .imageContainer{
 
-  background-color: fuchsia;
+  /* background-color: fuchsia; */
+  justify-content: center;
+  align-items: center;
 }
 
 .imageContainer img{
 
-  margin-top: 12%;
-  width: 100%;
+  display: flex;
+  width: 80%;
 }
 
 .textContainer{
 
-  background-color: blue;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blue; */
 }
 
 .textContainer p{
 
-  padding: 1em; 
-  padding-top: 30%; 
+  width: 80%;
 }
