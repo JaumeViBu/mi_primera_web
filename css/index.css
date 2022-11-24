@@ -9,7 +9,6 @@
 
   width: 2em;
   height: 2em;
-  /* background-color: fuchsia; */
   
 }
 
@@ -33,7 +32,6 @@ main{
 
 article{
 
-  /* background-color: lightgreen; */
   padding: 2%;
   height: 100%;
   margin: 2em;
@@ -57,7 +55,6 @@ article h1{
 
 .imageContainer{
 
-  /* background-color: fuchsia; */
   justify-content: center;
   align-items: center;
 }
@@ -72,7 +69,6 @@ article h1{
 
   align-items: center;
   justify-content: center;
-  /* background-color: blue; */
 }
 
 .textContainer p{

@@ -17,15 +17,15 @@ OBJETIVOS
   A partir del mockup  
   [X] Identificar las etiquetas semánticas de la web  
   [X] Maquetar la web en HTML  
-  [-] EXTRA: Añadir estilos css  
+  [X] EXTRA: Añadir estilos css  
 
   Requisitos No Funcionales  
   Debe tener mínimo cajas con etiquetas de:  
   [X] Título  
   [X] Imagen  
   [X] Párrafo  
-  [ ] Icono  
-  [ ] Links  
+  [X] Icono  
+  [X] Links  
 
   GitHub pages link: [link](https://jaumevibu.github.io/mi_primera_web/ 'GitHub Pages link')
 
