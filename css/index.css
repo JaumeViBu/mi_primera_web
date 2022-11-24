@@ -1,3 +1,10 @@
+
+*{
+
+  padding: 0;
+  margin: 0;
+}
+
 .icon{
 
   width: 1em;
@@ -6,10 +13,21 @@
   display: inline-block;
 }
 
+body{
+
+  height: 100vh;
+} 
+
+main{
+
+  height: 60%;
+}
+
 article{
 
   background-color: lightgreen;
   padding: 2em;
+  height: 100%;
 }
 
 p{
@@ -19,24 +37,24 @@ p{
   padding: 1em;
 }
 
+.imageContainer,.textContainer{
+
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
 .imageContainer{
 
-  display: inline-block;
-  width: 45%;
-  height: 100%;
   background-color: fuchsia;
-  margin-right: 9%;
-  vertical-align: middle;
 }
 
 .imageContainer img{
+
   width: 100%;
 }
 
 .textContainer{
 
-  display: inline-block;
-  width: 45%;
   background-color: blue;
-  vertical-align: middle;
 }
