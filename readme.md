@@ -33,3 +33,7 @@ OBJETIVOS
   [ ] TODO
   [X] DONE
   [-] WORKING ON IT
+
+  Change log:
+    v0.1: Funcional, pero estéticamente idéntica al mockup
+    v0.2: Diseño para presentar la lista de youtube '9b of music'
