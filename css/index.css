@@ -9,11 +9,13 @@ body{
 
   height: 100vh;
   font-family: 'Dejavu Sans',Arial, Helvetica, sans-serif;
+  background-color: firebrick;
 } 
 
 main{
 
   height: 60%;
+  
 }
 
 article{
@@ -23,6 +25,7 @@ article{
   margin: 2em;
   border: 2px solid black;
   border-radius: 10px;
+  background-color: beige;
 }
 
 article h1{
@@ -42,22 +45,28 @@ article h1{
 
   justify-content: center;
   align-items: center;
+  background-color: firebrick;
+  border-radius: 10px;
 }
 
 .imageContainer img{
 
   display: flex;
   width: 80%;
+  max-width: 400px;
 }
 
 .textContainer{
 
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  
 }
 
 .textContainer p{
-
+  
+  margin-top: 2%;
   width: 80%;
 }
 
