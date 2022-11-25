@@ -1,4 +1,6 @@
-OBJETIVOS
+  # Mi primera web  
+
+  OBJETIVOS
   * Primer contacto con el desarrollo de una página web estática
   * Primeras etiquetas semánticas HTML
   * Introducirse al control de versiones Git
