@@ -36,11 +36,11 @@
   [X] DONE
   [-] WORKING ON IT
 
-  Después de la presentación
-  [X] Cambiar displays a flex
-  [X] Cambiar img tag de icono a i
-  [X] Usar spans en vez de i y sup para dar formato al texto
-  [X] Arreglar overflows de tags p
+  Después de la presentación  
+  [X] Cambiar displays a flex  
+  [X] Cambiar img tag de icono a i  
+  [X] Usar spans en vez de i y sup para dar formato al texto  
+  [X] Arreglar overflows de tags p  
 
 
   Change log:  
