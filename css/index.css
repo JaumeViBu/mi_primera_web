@@ -15,30 +15,38 @@ body{
 main{
 
   height: 60%;
-  
 }
 
 article{
 
   padding: 2%;
-  height: 100%;
   margin: 2em;
   border: 2px solid black;
   border-radius: 10px;
   background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-height: 200vh;
 }
 
-article h1{
+.articleHeader h1{
 
-  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+
+.articleMainSection{
+
+  display: flex;
+  flex-direction: row;
 }
 
 .imageContainer,.textContainer{
 
   display: flex;
+  flex-direction: column;
   width: 50%;
-  height: 90%;
-  float: left;
 }
 
 .imageContainer{
@@ -47,13 +55,22 @@ article h1{
   align-items: center;
   background-color: firebrick;
   border-radius: 10px;
+
 }
 
-.imageContainer img{
+.imageContainer a{
 
-  display: flex;
   width: 80%;
-  max-width: 400px;
+  align-self: center;
+  justify-self: center;
+  padding: 0.5em;
+}
+
+.articleImage{
+
+  width: 100%;
+  align-self: center;
+  justify-self: center;
 }
 
 .textContainer{
@@ -61,27 +78,27 @@ article h1{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  
+  overflow: auto;
 }
 
 .textContainer p{
   
-  margin-top: 2%;
-  width: 80%;
-  overflow: auto;
+  padding: 1em;
+  padding-bottom:0;
+  
+}
+
+.iconLink{
+
+  align-self: flex-end;
 }
 
 .icon{
 
   width: 2em;
   height: 2em;
-}
-
-.iconLink, .icon{
-
-  position: relative;
-  align-self: flex-end;
-  margin-left: 1em;
+  display: block;
+  background-image: url('../images/iconYoutube32.png');
 }
 
 .italic{
