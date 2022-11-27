@@ -36,6 +36,14 @@
   [X] DONE
   [-] WORKING ON IT
 
+  Después de la presentación
+  [X] Cambiar displays a flex
+  [X] Cambiar img tag de icono a i
+  [X] Usar spans en vez de i y sup para dar formato al texto
+  [X] Arreglar overflows de tags p
+
+
   Change log:  
     v0.1: Funcional, pero estéticamente idéntica al mockup  
     v0.2: Diseño para presentar la lista de youtube '9b of music'  
+    v0.3: Versión usando posicionamiento flex.
