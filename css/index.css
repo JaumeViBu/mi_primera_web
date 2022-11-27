@@ -28,7 +28,7 @@ article{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-height: 200vh;
+  
 }
 
 .articleHeader h1{
@@ -40,7 +40,10 @@ article{
 
   display: flex;
   flex-direction: row;
+  
 }
+
+
 
 .imageContainer,.textContainer{
 
@@ -110,4 +113,19 @@ article{
 
   vertical-align: super;
   font-size:1rem;
+}
+
+@media screen and (max-width:640px) {
+  .articleMainSection{
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imageContainer,.textContainer{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
