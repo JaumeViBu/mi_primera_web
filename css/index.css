@@ -40,6 +40,7 @@ article{
 
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   
 }
 
@@ -49,7 +50,7 @@ article{
 
   display: flex;
   flex-direction: column;
-  width: 50%;
+  max-width: 50%;
 }
 
 .imageContainer{
@@ -113,19 +114,4 @@ article{
 
   vertical-align: super;
   font-size:1rem;
-}
-
-@media only screen and (max-width:720px) {
-  .articleMainSection{
-
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .imageContainer,.textContainer{
-
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
 }
