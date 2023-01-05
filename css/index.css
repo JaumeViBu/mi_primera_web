@@ -1,117 +1,103 @@
+:root {
+  --primary-color: firebrick;
+  --secondary-color: beige;
+}
 
-*{
-
+* {
   padding: 0;
   margin: 0;
 }
 
-body{
-
-  height: 90vh;
-  font-family: 'Dejavu Sans',Arial, Helvetica, sans-serif;
-  background-color: firebrick;
-} 
-
-main{
-
-  height: 60%;
+body {
+  height: 100vh;
+  font-family: "Dejavu Sans", Arial, Helvetica, sans-serif;
+  background-color: var(--primary-color);
+  padding: 0.5em;
 }
 
-article{
-
+main {
   padding: 2%;
-  margin: 2em;
-  border: 2px solid black;
   border-radius: 10px;
-  background-color: beige;
+  background-color: var(--secondary-color);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 
-.articleHeader h1{
-
+main h1 {
   padding-bottom: 1em;
 }
 
-.articleMainSection{
-
+.main__content {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  
+  gap: 0.5em;
 }
 
-
-
-.imageContainer,.textContainer{
-
+.main__content__image,
+.textContainer {
   display: flex;
   flex-direction: column;
   max-width: 50%;
+  min-width: 300px;
 }
 
-.imageContainer{
-
+.main__content__image {
   justify-content: center;
   align-items: center;
-  background-color: firebrick;
+  background-color: var(--primary-color);
   border-radius: 10px;
-
 }
 
-.imageContainer a{
-
+.main__content__image a {
   width: 80%;
   align-self: center;
   justify-self: center;
   padding: 0.5em;
 }
 
-.articleImage{
-
+.articleImage {
   width: 100%;
   align-self: center;
   justify-self: center;
 }
 
-.textContainer{
-
+.textContainer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
   overflow: auto;
 }
 
-.textContainer p{
-  
+.textContainer p {
   padding: 1em;
-  padding-bottom:0;
-  
+  padding-bottom: 0;
 }
 
-.iconLink{
-
+.iconLink {
   align-self: flex-end;
 }
 
-.icon{
-
+.icon {
   width: 2em;
   height: 2em;
   display: block;
-  background-image: url('../images/iconYoutube32.png');
+  background-image: url("../images/iconYoutube32.png");
 }
 
-.italic{
-
+.italic {
   font-style: italic;
 }
 
-.superindex{
-
+.superindex {
   vertical-align: super;
-  font-size:1rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 700px) {
+  .main__content {
+    flex-direction: column;
+    align-items: center;
+  }
 }
